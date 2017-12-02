@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="kino2" id="B7C02D3C-390F-2DCF-E62F-92A66E0363FE" version="3.5">
+<createdBy>Oliwia</createdBy>
+<createdTime>2017-11-30 08:19:22 UTC</createdTime>
+<ownerDesignName>kino2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B7C02D3C-390F-2DCF-E62F-92A66E0363FE</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="DA9ED137-E5CE-5D6E-9F35-87DB43A734B0">
+<designStoragePath>E:\schemat_KINO</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="D32D4403-0EB1-F2DD-0041-A81C53B97E1D">
+<designStoragePath>C:\Users\Oliwia\Desktop\KINO</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="12E4E626-CCC0-A98B-9960-83267A27B88B">
+<designStoragePath>C:\Users\Oliwia\Desktop\KINO</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
