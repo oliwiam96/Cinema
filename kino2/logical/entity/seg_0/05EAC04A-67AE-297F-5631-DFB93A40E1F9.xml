@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="05EAC04A-67AE-297F-5631-DFB93A40E1F9" name="Paragon">
+<createdBy>Oliwia</createdBy>
+<createdTime>2017-11-30 08:19:42 UTC</createdTime>
+<ownerDesignName>kino2</ownerDesignName>
+<importedID>69EF5B6C-E1ED-4EB0-889D-AEAEA032DA67</importedID>
+<engineerTo>
+<item key="EC88188C-07F8-9F8E-A7CB-4010DC817A01" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="692A5E02-DAE4-1A8A-CB47-A020516819A3">
+<createdBy>Oliwia</createdBy>
+<createdTime>2017-11-30 08:19:43 UTC</createdTime>
+<ownerDesignName>kino2</ownerDesignName>
+<importedID>8C1ED084-EFCC-4F57-4513-1D438502E02E</importedID>
+<engineerTo>
+<item key="EC88188C-07F8-9F8E-A7CB-4010DC817A01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_godzina" id="B251B166-D069-EC27-445B-2AD06CC5F127">
+<createdBy>Oliwia</createdBy>
+<createdTime>2017-11-30 08:19:43 UTC</createdTime>
+<ownerDesignName>kino2</ownerDesignName>
+<importedID>0F2F4D61-FA8F-A9DE-10FB-0F77CA8FAFD0</importedID>
+<engineerTo>
+<item key="EC88188C-07F8-9F8E-A7CB-4010DC817A01" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6750F88E-549C-18EC-5CD0-DA0A4B93D9BE" name="Paragon PK">
+<createdBy>Oliwia</createdBy>
+<createdTime>2017-11-30 08:19:43 UTC</createdTime>
+<ownerDesignName>kino2</ownerDesignName>
+<importedID>90A9E541-BEA0-54FA-C1A0-9154279AB2C6</importedID>
+<engineerTo>
+<item key="EC88188C-07F8-9F8E-A7CB-4010DC817A01" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>692A5E02-DAE4-1A8A-CB47-A020516819A3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

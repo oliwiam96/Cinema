@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8D25D23B-4BA2-21DD-3734-42404288CA18" name="Sala">
+<createdBy>Oliwia</createdBy>
+<createdTime>2017-11-30 08:19:42 UTC</createdTime>
+<ownerDesignName>kino2</ownerDesignName>
+<importedID>C2C75654-FD73-0BAC-8800-471D364A35F8</importedID>
+<engineerTo>
+<item key="EC88188C-07F8-9F8E-A7CB-4010DC817A01" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_sali" id="753C6327-D102-594A-2798-3E4B71232473">
+<createdBy>Oliwia</createdBy>
+<createdTime>2017-11-30 08:19:43 UTC</createdTime>
+<ownerDesignName>kino2</ownerDesignName>
+<importedID>46FCCB9D-F5DC-94C5-13EB-BA1F3E10CF19</importedID>
+<engineerTo>
+<item key="EC88188C-07F8-9F8E-A7CB-4010DC817A01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B0E0AE0E-3D4A-9EF2-35C6-D8A69C31CFE2" name="Sala PK">
+<createdBy>Oliwia</createdBy>
+<createdTime>2017-11-30 08:19:43 UTC</createdTime>
+<ownerDesignName>kino2</ownerDesignName>
+<importedID>F890C7A9-D926-A85E-8C5B-AAC6151A48FA</importedID>
+<engineerTo>
+<item key="EC88188C-07F8-9F8E-A7CB-4010DC817A01" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>753C6327-D102-594A-2798-3E4B71232473</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,173 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0BF57DFF-6E84-0991-040A-7C121F0E9785" name="Film">
+<createdBy>Oliwia</createdBy>
+<createdTime>2017-11-30 08:19:42 UTC</createdTime>
+<ownerDesignName>kino2</ownerDesignName>
+<importedID>E2C1F932-9380-83E5-DF62-BAAB5FF9E4F9</importedID>
+<engineerTo>
+<item key="EC88188C-07F8-9F8E-A7CB-4010DC817A01" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="3974871C-8B33-064C-B719-AE0482147C98">
+<createdBy>Oliwia</createdBy>
+<createdTime>2017-11-30 08:19:43 UTC</createdTime>
+<ownerDesignName>kino2</ownerDesignName>
+<importedID>6E7EEB07-312C-8FEC-BEC9-87B4895BE3CC</importedID>
+<engineerTo>
+<item key="EC88188C-07F8-9F8E-A7CB-4010DC817A01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tytuł" id="C75FC2BC-53AE-1359-166F-857C87AA4FBF">
+<createdBy>Oliwia</createdBy>
+<createdTime>2017-11-30 08:19:43 UTC</createdTime>
+<ownerDesignName>kino2</ownerDesignName>
+<importedID>FFC55DFB-9046-959E-17F9-05FFDAE14638</importedID>
+<engineerTo>
+<item key="EC88188C-07F8-9F8E-A7CB-4010DC817A01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="czas_trwania" id="1A22F246-210B-26ED-CE92-264C3E918E46">
+<createdBy>Oliwia</createdBy>
+<createdTime>2017-11-30 08:19:43 UTC</createdTime>
+<ownerDesignName>kino2</ownerDesignName>
+<importedID>1AB4E13C-738C-F31B-2BF8-B975F08A34DF</importedID>
+<engineerTo>
+<item key="EC88188C-07F8-9F8E-A7CB-4010DC817A01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gatunek" id="CAFEA2EB-98ED-5F09-4DE8-B02BB6E0E4B6">
+<createdBy>Oliwia</createdBy>
+<createdTime>2017-11-30 08:19:43 UTC</createdTime>
+<ownerDesignName>kino2</ownerDesignName>
+<importedID>96E23D05-4CDF-1E70-2DAE-2E84573F8D75</importedID>
+<engineerTo>
+<item key="EC88188C-07F8-9F8E-A7CB-4010DC817A01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kategoria_wiekowa" id="4D3EB797-8D46-6164-07F9-253FAB4892C1">
+<createdBy>Oliwia</createdBy>
+<createdTime>2017-11-30 08:19:43 UTC</createdTime>
+<ownerDesignName>kino2</ownerDesignName>
+<importedID>2237BE56-B3BE-6BBD-8377-10166FCCD33A</importedID>
+<engineerTo>
+<item key="EC88188C-07F8-9F8E-A7CB-4010DC817A01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="opis" id="ADE429ED-5B69-9423-9CAF-A5A22783A493">
+<createdBy>Oliwia</createdBy>
+<createdTime>2017-11-30 08:19:43 UTC</createdTime>
+<ownerDesignName>kino2</ownerDesignName>
+<importedID>59641F7F-71FC-215F-FC05-F71C4007507B</importedID>
+<engineerTo>
+<item key="EC88188C-07F8-9F8E-A7CB-4010DC817A01" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="reżyseria" id="DA6A8859-66F5-B474-21DC-7F348B9F665B">
+<createdBy>Oliwia</createdBy>
+<createdTime>2017-11-30 08:19:43 UTC</createdTime>
+<ownerDesignName>kino2</ownerDesignName>
+<importedID>1E263C67-5485-4AAC-89EE-8F434B0106A4</importedID>
+<engineerTo>
+<item key="EC88188C-07F8-9F8E-A7CB-4010DC817A01" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="scenariusz" id="B4174143-088C-1343-17E6-03716EFF2E91">
+<createdBy>Oliwia</createdBy>
+<createdTime>2017-11-30 08:19:43 UTC</createdTime>
+<ownerDesignName>kino2</ownerDesignName>
+<importedID>C06E90A6-2DD7-B48C-358B-DDE35AAD8CC8</importedID>
+<engineerTo>
+<item key="EC88188C-07F8-9F8E-A7CB-4010DC817A01" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zdjęcia" id="AFA9AF94-D5DB-0C09-6475-0C01097C3D81">
+<createdBy>Oliwia</createdBy>
+<createdTime>2017-11-30 08:19:43 UTC</createdTime>
+<ownerDesignName>kino2</ownerDesignName>
+<importedID>760F9AD8-4D62-1135-99BB-4AAB8AED47C5</importedID>
+<engineerTo>
+<item key="EC88188C-07F8-9F8E-A7CB-4010DC817A01" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="występują" id="DD5221E4-708D-4DA7-808B-6BFCCCB4BC16">
+<createdBy>Oliwia</createdBy>
+<createdTime>2017-11-30 08:19:43 UTC</createdTime>
+<ownerDesignName>kino2</ownerDesignName>
+<importedID>EDE39A97-66DE-26B7-31CA-1C42C6A5A975</importedID>
+<engineerTo>
+<item key="EC88188C-07F8-9F8E-A7CB-4010DC817A01" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2BBA39E9-C835-C9F4-E40C-D4A2398C26B1" name="Film PK">
+<createdBy>Oliwia</createdBy>
+<createdTime>2017-11-30 08:19:43 UTC</createdTime>
+<ownerDesignName>kino2</ownerDesignName>
+<importedID>559B7BF0-FAAE-865C-BE80-2C6ED2A64520</importedID>
+<engineerTo>
+<item key="EC88188C-07F8-9F8E-A7CB-4010DC817A01" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3974871C-8B33-064C-B719-AE0482147C98</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

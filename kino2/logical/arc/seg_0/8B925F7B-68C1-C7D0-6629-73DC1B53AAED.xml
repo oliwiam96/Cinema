@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="8B925F7B-68C1-C7D0-6629-73DC1B53AAED" name="Arc_1">
+<createdBy>Oliwia</createdBy>
+<createdTime>2017-11-30 08:26:30 UTC</createdTime>
+<ownerDesignName>kino2</ownerDesignName>
+<engineerTo>
+<item key="EC88188C-07F8-9F8E-A7CB-4010DC817A01" value="true"/>
+</engineerTo>
+<entity>C4611066-C2C3-1141-6288-FBF6060501B0</entity>
+<relations>
+<relationID>BCF45A98-A568-6453-4F4D-F24E71515864</relationID>
+<relationID>E999BF0C-382C-D405-10DA-7BE4AAEB3E3C</relationID>
+</relations>
+</Arc>

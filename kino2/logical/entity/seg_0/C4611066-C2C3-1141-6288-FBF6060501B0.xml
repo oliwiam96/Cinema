@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C4611066-C2C3-1141-6288-FBF6060501B0" name="MiejsceNaSeansie">
+<createdBy>Oliwia</createdBy>
+<createdTime>2017-11-30 08:19:42 UTC</createdTime>
+<ownerDesignName>kino2</ownerDesignName>
+<importedID>C73551BB-C6F1-2C90-0022-2E3E2B0B8061</importedID>
+<engineerTo>
+<item key="EC88188C-07F8-9F8E-A7CB-4010DC817A01" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id1" id="BE7F29F9-9CFE-A7DA-BD82-CDE610C424C6">
+<createdBy>Oliwia</createdBy>
+<createdTime>2017-11-30 08:19:43 UTC</createdTime>
+<generatorID>E999BF0C-382C-D405-10DA-7BE4AAEB3E3C</generatorID>
+<ownerDesignName>kino2</ownerDesignName>
+<importedID>84508AC2-45AC-46E1-2954-E29FBBCFB02D</importedID>
+<engineerTo>
+<item key="EC88188C-07F8-9F8E-A7CB-4010DC817A01" value="true"/>
+</engineerTo>
+<referedAttribute>387A1814-DF56-D07B-960A-B7192D85B494</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="0BF13027-BEE8-5673-3A22-FBC663E3BD73">
+<createdBy>Oliwia</createdBy>
+<createdTime>2017-11-30 08:19:58 UTC</createdTime>
+<generatorID>8A28B417-D89A-39A4-EC5D-37BDB6939BE2</generatorID>
+<ownerDesignName>kino2</ownerDesignName>
+<engineerTo>
+<item key="EC88188C-07F8-9F8E-A7CB-4010DC817A01" value="true"/>
+</engineerTo>
+<referedAttribute>B1DA2B74-6FC3-BE7E-0A41-437052E56F60</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="2B28FE90-7357-03EE-04F1-2C494938FF37">
+<createdBy>Oliwia</createdBy>
+<createdTime>2017-11-30 08:26:49 UTC</createdTime>
+<generatorID>BCF45A98-A568-6453-4F4D-F24E71515864</generatorID>
+<ownerDesignName>kino2</ownerDesignName>
+<engineerTo>
+<item key="EC88188C-07F8-9F8E-A7CB-4010DC817A01" value="true"/>
+</engineerTo>
+<referedAttribute>62356529-141F-766D-5EAF-0D2B53D815D5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_godzina" id="4305F2A9-C3C4-278A-E004-9F14482E59B4">
+<createdBy>Oliwia</createdBy>
+<createdTime>2017-11-30 08:32:27 UTC</createdTime>
+<generatorID>8A28B417-D89A-39A4-EC5D-37BDB6939BE2</generatorID>
+<ownerDesignName>kino2</ownerDesignName>
+<engineerTo>
+<item key="EC88188C-07F8-9F8E-A7CB-4010DC817A01" value="true"/>
+</engineerTo>
+<referedAttribute>8A782C0B-96BF-5511-6C29-5C06E96C0B29</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rząd" id="07A684D7-AD15-3EBC-7E81-BA8B475A7594">
+<createdBy>Oliwia</createdBy>
+<createdTime>2017-11-30 08:33:41 UTC</createdTime>
+<generatorID>25B0CA4E-A626-A70A-2F14-F5A3CE91506C</generatorID>
+<ownerDesignName>kino2</ownerDesignName>
+<engineerTo>
+<item key="EC88188C-07F8-9F8E-A7CB-4010DC817A01" value="true"/>
+</engineerTo>
+<referedAttribute>085CFF87-E67F-6B78-5D11-FDFB9D4353A5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_miejsca" id="BB38F44C-5936-9E9A-CB07-BF92211CCB5E">
+<createdBy>Oliwia</createdBy>
+<createdTime>2017-11-30 08:33:54 UTC</createdTime>
+<generatorID>25B0CA4E-A626-A70A-2F14-F5A3CE91506C</generatorID>
+<ownerDesignName>kino2</ownerDesignName>
+<engineerTo>
+<item key="EC88188C-07F8-9F8E-A7CB-4010DC817A01" value="true"/>
+</engineerTo>
+<referedAttribute>33C5D9FB-164F-CCA2-A0EA-765BA2CAFBDA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_sali" id="AA853926-1BC9-23BB-36FC-B048A43CC1B4">
+<createdBy>Oliwia</createdBy>
+<createdTime>2017-11-30 08:33:56 UTC</createdTime>
+<generatorID>25B0CA4E-A626-A70A-2F14-F5A3CE91506C</generatorID>
+<ownerDesignName>kino2</ownerDesignName>
+<engineerTo>
+<item key="EC88188C-07F8-9F8E-A7CB-4010DC817A01" value="true"/>
+</engineerTo>
+<referedAttribute>E87B1FBB-6099-7B3B-CAB3-2BE386E8BC6F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B36D1394-BD2F-F7EB-1747-0980FF7832E2" name="MiejsceNaSeansie PK">
+<createdBy>Oliwia</createdBy>
+<createdTime>2017-11-30 08:25:24 UTC</createdTime>
+<ownerDesignName>kino2</ownerDesignName>
+<engineerTo>
+<item key="EC88188C-07F8-9F8E-A7CB-4010DC817A01" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0BF13027-BEE8-5673-3A22-FBC663E3BD73</attributeRef>
+<attributeRef>4305F2A9-C3C4-278A-E004-9F14482E59B4</attributeRef>
+<attributeRef>07A684D7-AD15-3EBC-7E81-BA8B475A7594</attributeRef>
+<attributeRef>BB38F44C-5936-9E9A-CB07-BF92211CCB5E</attributeRef>
+<attributeRef>AA853926-1BC9-23BB-36FC-B048A43CC1B4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
