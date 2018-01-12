@@ -12,5 +12,10 @@ DROP TABLE rodzajebiletow CASCADE CONSTRAINTS;
 DROP TABLE sale CASCADE CONSTRAINTS;
 DROP TABLE seanse CASCADE CONSTRAINTS;
 
+DROP SEQUENCE paragon_id_seq;
+DROP SEQUENCE produkt_id_seq;
 DROP SEQUENCE bilet_id_seq;
+DROP SEQUENCE film_id_seq;
+DROP SEQUENCE pracownik_id_seq;
+DROP SEQUENCE rezerwacja_id_seq;
 DROP FUNCTION liczba_miejsc_w_sali;

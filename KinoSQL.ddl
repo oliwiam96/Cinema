@@ -259,15 +259,14 @@ ALTER TABLE seanse
     ADD CONSTRAINT seans_film_fk FOREIGN KEY ( film_id )
         REFERENCES filmy ( id );
 
+CREATE SEQUENCE paragon_id_seq START WITH 1 NOCACHE ORDER;
+CREATE SEQUENCE produkt_id_seq START WITH 1 NOCACHE ORDER;
 CREATE SEQUENCE bilet_id_seq START WITH 1 NOCACHE ORDER;
+CREATE SEQUENCE film_id_seq START WITH 1 NOCACHE ORDER;
+CREATE SEQUENCE pracownik_id_seq START WITH 1 NOCACHE ORDER;
+CREATE SEQUENCE rezerwacja_id_seq START WITH 1 NOCACHE ORDER;
 
-CREATE OR REPLACE TRIGGER bilet_id_trg BEFORE
-    INSERT ON bilety
-    FOR EACH ROW
-    WHEN ( new.id IS NULL )
-BEGIN
-    :new.id := bilet_id_seq.nextval;
-END;
+
 /
 
 
@@ -283,7 +282,7 @@ END;
 -- CREATE PACKAGE BODY                      0
 -- CREATE PROCEDURE                         0
 -- CREATE FUNCTION                          0
--- CREATE TRIGGER                           1
+-- CREATE TRIGGER                           0
 -- ALTER TRIGGER                            0
 -- CREATE COLLECTION TYPE                   0
 -- CREATE STRUCTURED TYPE                   0
@@ -296,7 +295,7 @@ END;
 -- CREATE DISK GROUP                        0
 -- CREATE ROLE                              0
 -- CREATE ROLLBACK SEGMENT                  0
--- CREATE SEQUENCE                          1
+-- CREATE SEQUENCE                          6
 -- CREATE MATERIALIZED VIEW                 0
 -- CREATE SYNONYM                           0
 -- CREATE TABLESPACE                        0
